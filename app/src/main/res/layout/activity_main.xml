@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="35dp"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:layout_above="@+id/Nums"
+        android:text="0"/>
+
+    <LinearLayout
+        android:id="@+id/Nums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt_on"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                style="@style/Button1"
+                android:text="ON"
+                android:background="@drawable/shape1"/>
+
+            <Button
+                android:id="@+id/butt_7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="7"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+
+            <Button
+                android:id="@+id/butt_4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="4"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+            <Button
+                android:id="@+id/butt_1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="1"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+
+            <Button
+                android:id="@+id/butt_DEL"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                style="@style/Button1"
+                android:text="DEL"
+                android:background="@drawable/shape1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt_off"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="OFF"
+                style="@style/Button1"
+                android:background="@drawable/shape1"/>
+
+            <Button
+                android:id="@+id/butt_8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="8"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+
+            <Button
+                android:id="@+id/butt_5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="5"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+            <Button
+                android:id="@+id/butt_2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="2"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+
+            <Button
+                android:id="@+id/butt_0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="0"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt_ac"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="AC"
+                style="@style/Button1"
+                android:background="@drawable/shape1"/>
+
+            <Button
+                android:id="@+id/butt_9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="9"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+
+            <Button
+                android:id="@+id/butt_6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="6"
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+            <Button
+                android:id="@+id/butt_3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                style="@style/Button1"
+                android:text="3"
+                android:background="@drawable/shape2"/>
+
+            <Button
+                android:id="@+id/butt_decimal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="."
+                style="@style/Button1"
+                android:background="@drawable/shape2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt_divide"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                style="@style/Button1"
+                android:text="/"
+                android:background="@drawable/shape1"/>
+
+            <Button
+                android:id="@+id/butt_Mul"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="*"
+                style="@style/Button1"
+                android:background="@drawable/shape1"/>
+
+            <Button
+                android:id="@+id/butt_Sub"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="-"
+                style="@style/Button1"
+                android:background="@drawable/shape1"/>
+            <Button
+                android:id="@+id/butt_add"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="+"
+                style="@style/Button1"
+                android:background="@drawable/shape1"/>
+
+            <Button
+                android:id="@+id/butt_equal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="="
+                style="@style/Button1"
+                android:background="@drawable/shape1"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
